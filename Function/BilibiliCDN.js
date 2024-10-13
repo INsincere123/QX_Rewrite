@@ -1,10 +1,3 @@
-[rewrite_local]
-^https:\/\/.*\.bilivideo\.cn\/.*\.m3u8$ url script-response-body https://raw.githubusercontent.com/INsincere123/QX_Rewrite/refs/heads/master/Function/BilibiliCDN.js
-
-[mitm]
-hostname = *.bilivideo.cn, *.mcdn.bilivideo.cn, *.szbdyd.com
-
-
 const cdnDomain = "upos-sz-mirrorcoso1.bilivideo.com"; // 你要替换的CDN域名
 
 function replaceP2PUrl(url) {
