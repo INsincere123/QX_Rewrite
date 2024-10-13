@@ -1,5 +1,5 @@
 [rewrite_local]
-^https:\/\/.*\.bilivideo\.cn\/.*\.m3u8$ url script-response-body pcdn_replacer.js
+^https:\/\/.*\.bilivideo\.cn\/.*\.m3u8$ url script-response-body https://raw.githubusercontent.com/INsincere123/QX_Rewrite/refs/heads/master/Function/BilibiliCDN.js
 
 [mitm]
 hostname = *.bilivideo.cn, *.mcdn.bilivideo.cn, *.szbdyd.com
