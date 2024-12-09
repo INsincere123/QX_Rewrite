@@ -1,0 +1,6 @@
+hostname = rtbapi.douyucdn.cn, apiv2.douyucdn.cn, venus.douyucdn.cn
+^http:\/\/203\.107\.1\.33\/\d+\/ss url reject-200
+^http:\/\/203\.107\.1\.34\/\d+\/ss url reject-200
+^http:\/\/linkmicschedule\.douyucdn\.cn\/im_schedule\/im_gate_list url reject-200
+https:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo url reject-dict
+https:\/\/apiv2\.douyucdn\.cn\/mgapi\/livenc\/home\/getRecV3 url script-response-body https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Douyu/Douyu_remove_ads.js
