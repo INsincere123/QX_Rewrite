@@ -2,9 +2,3 @@ ip-cidr, 119.29.29.98/32, reject
 ip-cidr, 119.29.29.99/32, reject
 host, stun1.douyucdn.cn, reject
 host, stun1.qvb.qcloud.com, reject
-hostname = rtbapi.douyucdn.cn, apiv2.douyucdn.cn, venus.douyucdn.cn
-^http:\/\/203\.107\.1\.33\/\d+\/ss url reject-200
-^http:\/\/203\.107\.1\.34\/\d+\/ss url reject-200
-^http:\/\/linkmicschedule\.douyucdn\.cn\/im_schedule\/im_gate_list url reject-200
-https:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo url reject-dict
-https:\/\/apiv2\.douyucdn\.cn\/mgapi\/livenc\/home\/getRecV3 url script-response-body https://raw.githubusercontent.com/INsincere123/ios_rule_script/refs/heads/master/rule/QuantumultX/DouYuAds/douyuads.js
