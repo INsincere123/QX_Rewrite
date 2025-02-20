@@ -13,9 +13,9 @@
 [rewrite_local]
 
 # > 百度网盘_开屏广告@ddgksf2013
-^https?:\/\/pan\.baidu\.com\/api\/getsyscfg url script-response-body https://gist.githubusercontent.com/ddgksf2013/f43026707830c7818ee3ba624e383c8d/raw/baiduCloud.adblock.js
+^https?:\/\/pan\.baidu\.com\/api\/getsyscfg url script-response-body https://raw.githubusercontent.com/INsincere123/QX_Rewrite/refs/heads/master/AdBlock/BaiDuYun/baiduCloud.adblock.js
 # > 百度网盘_广告推广@ddgksf2013
-^https?:\/\/afd\.baidu\.com\/afd\/entry url script-response-body https://gist.githubusercontent.com/ddgksf2013/f43026707830c7818ee3ba624e383c8d/raw/baiduCloud.adblock.js
+^https?:\/\/afd\.baidu\.com\/afd\/entry url script-response-body https://raw.githubusercontent.com/INsincere123/QX_Rewrite/refs/heads/master/AdBlock/BaiDuYun/baiduCloud.adblock.js
 # > 百度网盘_启动弹窗@ddgksf2013
 ^https?:\/\/.*baidu\.com\/rest\/.*\/membership\/proxy\/guide url reject-200
 # > 百度网盘_设置信息流@ddgksf2013
@@ -25,7 +25,7 @@
 # > 百度网盘_活动推广@ddgksf2013
 ^https?:\/\/pan\.baidu\.com\/act\/api\/activityentry url reject-200
 # > 百度网盘_游戏广告@ddgksf2013
-^https:\/\/pan\.baidu\.com\/rest\/.*\/membership\/user\?method=gamecenter url script-response-body https://gist.githubusercontent.com/ddgksf2013/f43026707830c7818ee3ba624e383c8d/raw/baiduCloud.adblock.js
+^https:\/\/pan\.baidu\.com\/rest\/.*\/membership\/user\?method=gamecenter url script-response-body https://raw.githubusercontent.com/INsincere123/QX_Rewrite/refs/heads/master/AdBlock/BaiDuYun/baiduCloud.adblock.js
 # > 百度网盘_热搜list@ddgksf2013
 ^https:\/\/pan\.baidu\.com\/feed\/hotlist url reject-200
 # > 百度网盘_活动推广@ddgksf2013
@@ -35,7 +35,7 @@
 # > 百度网盘_金币乐园@ddgksf2013
 ^https:\/\/pan\.baidu\.com\/coins\/center\/notice url reject-200
 # > 百度网盘_首页信息流@ddgksf2013
-^https:\/\/pan\.baidu\.com\/feed\/cardinfos url script-response-body https://gist.githubusercontent.com/ddgksf2013/f43026707830c7818ee3ba624e383c8d/raw/baiduCloud.adblock.js
+^https:\/\/pan\.baidu\.com\/feed\/cardinfos url script-response-body https://raw.githubusercontent.com/INsincere123/QX_Rewrite/refs/heads/master/AdBlock/BaiDuYun/baiduCloud.adblock.js
 
 [mitm]
 
