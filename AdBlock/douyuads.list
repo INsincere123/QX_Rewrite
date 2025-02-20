@@ -1,0 +1,4 @@
+ip-cidr, 119.29.29.98/32, reject
+ip-cidr, 119.29.29.99/32, reject
+host, stun1.douyucdn.cn, reject
+host, stun1.qvb.qcloud.com, reject
